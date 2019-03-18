@@ -1,7 +1,7 @@
 # Write your code here.
 # the badge maker method that will print one badge for a person
 def badge_maker( name )
-"Hello, my name is #{name}"
+"Hello, my name is #{name}."
 end
 
 # build all the name badges for each person into an array
@@ -18,7 +18,7 @@ end
 def assign_rooms ( names )
   print_output = []
   names.each_with_index do | name, index |
-    print_output << "Hello, #{name}, you will be assigned to room #{index+1}"
+    print_output << "Hello, #{name}!, you will be assigned to room #{index+1}!"
   end
   print_output # return the list ready for printing
 end
